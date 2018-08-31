@@ -9,3 +9,4 @@ C:\Users\jstfr\Desktop\nemoSpace\parkingReservationSystem\parkingReservationSyst
 C:\Users\jstfr\Desktop\nemoSpace\parkingReservationSystem\parkingReservationSystem\obj\x86\Debug\parkingReservationSystem.frmLogin.resources
 C:\Users\jstfr\Desktop\nemoSpace\parkingReservationSystem\parkingReservationSystem\obj\x86\Debug\parkingReservationSystem.frmRegister.resources
 C:\Users\jstfr\Desktop\nemoSpace\parkingReservationSystem\parkingReservationSystem\obj\x86\Debug\parkingReservationSystem.frmMotoristParent.resources
+C:\Users\jstfr\Desktop\nemoSpace\parkingReservationSystem\parkingReservationSystem\obj\x86\Debug\parkingReservationSystem.vbprojResolveAssemblyReference.cache

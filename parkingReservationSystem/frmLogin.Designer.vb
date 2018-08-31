@@ -109,11 +109,13 @@ Partial Class frmLogin
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(289, 25)
         Me.txtPassword.TabIndex = 6
+        Me.txtPassword.UseSystemPasswordChar = True
         '
         'cmbUserType
         '
         Me.cmbUserType.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbUserType.FormattingEnabled = True
+        Me.cmbUserType.Items.AddRange(New Object() {"Customer", "Receptionist", "Admin"})
         Me.cmbUserType.Location = New System.Drawing.Point(173, 106)
         Me.cmbUserType.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmbUserType.Name = "cmbUserType"
