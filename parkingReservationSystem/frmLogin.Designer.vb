@@ -124,6 +124,7 @@ Partial Class frmLogin
         '
         'grpLogin
         '
+        Me.grpLogin.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.grpLogin.Controls.Add(Me.lblSubHeader)
         Me.grpLogin.Controls.Add(Me.lblUsername)
         Me.grpLogin.Controls.Add(Me.cmbUserType)
@@ -170,7 +171,7 @@ Partial Class frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
+        Me.BackColor = System.Drawing.Color.DarkSlateGray
         Me.ClientSize = New System.Drawing.Size(640, 311)
         Me.Controls.Add(Me.grpLogin)
         Me.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
