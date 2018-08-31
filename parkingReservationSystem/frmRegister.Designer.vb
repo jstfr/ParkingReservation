@@ -50,6 +50,7 @@ Partial Class frmRegister
         '
         'grpRegister
         '
+        Me.grpRegister.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.grpRegister.Controls.Add(Me.btnBack)
         Me.grpRegister.Controls.Add(Me.btnSubmit)
         Me.grpRegister.Controls.Add(Me.txtConfirmPassword)
@@ -108,6 +109,7 @@ Partial Class frmRegister
         Me.txtConfirmPassword.Name = "txtConfirmPassword"
         Me.txtConfirmPassword.Size = New System.Drawing.Size(287, 25)
         Me.txtConfirmPassword.TabIndex = 20
+        Me.txtConfirmPassword.UseSystemPasswordChar = True
         '
         'txtPassword
         '
@@ -116,6 +118,7 @@ Partial Class frmRegister
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(287, 25)
         Me.txtPassword.TabIndex = 19
+        Me.txtPassword.UseSystemPasswordChar = True
         '
         'txtUsername
         '
@@ -129,6 +132,7 @@ Partial Class frmRegister
         '
         Me.cmbUserType.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbUserType.FormattingEnabled = True
+        Me.cmbUserType.Items.AddRange(New Object() {"Customer", "Receptionist", "Admin"})
         Me.cmbUserType.Location = New System.Drawing.Point(225, 222)
         Me.cmbUserType.Name = "cmbUserType"
         Me.cmbUserType.Size = New System.Drawing.Size(287, 25)
@@ -296,7 +300,7 @@ Partial Class frmRegister
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
+        Me.BackColor = System.Drawing.Color.DarkSlateGray
         Me.ClientSize = New System.Drawing.Size(727, 425)
         Me.Controls.Add(Me.grpRegister)
         Me.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

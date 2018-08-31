@@ -57,4 +57,17 @@ Public Class clsConnection
             Throw New ArgumentException("There's a problem with the database please contact your administrator")
         End Try
     End Sub
+    Public Sub processData(ByVal qry As String)
+       Try
+            connectString()
+            sqlConnect.Open()
+            sqlCommand.CommandText = qry
+            sqlCommand.CommandType = CommandType.Text
+            sqlCommand.Connection = sqlConnect
+            sqlCommand.ExecuteScalar()
+            sqlConnect.Close()
+        Catch ex As MySqlException
+            Throw New ArgumentException("There's a problem with the database please contact your administrator")
+        End Try
+    End Sub
 End Class

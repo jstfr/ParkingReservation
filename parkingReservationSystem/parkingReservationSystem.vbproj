@@ -82,7 +82,8 @@
   <ItemGroup>
     <Compile Include="clsAccessSystem.vb" />
     <Compile Include="clsConnection.vb" />
-    <Compile Include="cUser.vb" />
+    <Compile Include="clsCustomer.vb" />
+    <Compile Include="clsUserAbstract.vb" />
     <Compile Include="frmMotoristParent.Designer.vb">
       <DependentUpon>frmMotoristParent.vb</DependentUpon>
     </Compile>

@@ -34,7 +34,7 @@
                     Me.Hide()
                 End If
             Catch ex As ArgumentException
-                MessageBox.Show(ex.Message, "SPECSNTREND INC.", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show(ex.Message, "Parking Reservation System", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End Try
         End If
     End Sub
